@@ -1,8 +1,8 @@
 import unittest
 
-from engine.engine_types.capuletengine import CapuletEngine
-from engine.engine_types.sternmanengine import SternmanEngine
-from engine.engine_types.willoughbyengine import WilloughbyEngine
+from engine.capuletengine import CapuletEngine
+from engine.sternmanengine import SternmanEngine
+from engine.willoughbyengine import WilloughbyEngine
 
 
 class TestCapuletEngine(unittest.TestCase):

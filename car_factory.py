@@ -1,10 +1,10 @@
 from car import Car
 from datetime import date
-from engine.engine_types.capuletengine import CapuletEngine
-from engine.engine_types.sternmanengine import SternmanEngine
-from engine.engine_types.willoughbyengine import WilloughbyEngine
-from battery.battery_types.nubbinbattery import NubbinBattery
-from battery.battery_types.spindlerbattery import SpindlerBattery
+from engine.capuletengine import CapuletEngine
+from engine.sternmanengine import SternmanEngine
+from engine.willoughbyengine import WilloughbyEngine
+from battery.nubbinbattery import NubbinBattery
+from battery.spindlerbattery import SpindlerBattery
 
 
 class CarFactory:
